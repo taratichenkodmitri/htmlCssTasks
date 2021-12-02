@@ -1,0 +1,48 @@
+h1 {
+  color: red;
+}
+
+p {
+  color: greenyellow;
+}
+
+Ul {
+  color: orangered;
+  list-style-type: square;
+}
+
+.special {
+  color : blue;
+  font-weight: bold;
+}
+
+li em {
+  color: rebeccapurple;
+}
+
+h1 + p {
+  font-size: 200%;
+}
+
+a:link {
+  color: pink;
+  font-weight: bold;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+    text-decoration-style: wavy;
+}
+
+body {
+  background-color: pink;
+}
+
+@media (min-width: 30em) {
+  body {
+    background-color: blue;
+  }
+}
